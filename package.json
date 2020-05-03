@@ -1,0 +1,29 @@
+{
+  "name": "typescriptadventures",
+  "version": "1.0.0",
+  "description": "Repo to keep track of my TS learning experiments",
+  "main": "app.js",
+  "scripts": {
+	 "test": "echo \"Error: no test specified\" && exit 1",
+	 "tsc": "tsc -w app.ts",
+	 "serve": "lite-server",
+	 "start": "npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StuartLoria/TypeScriptAdventures.git"
+  },
+  "keywords": [
+    "stuartloria",
+    "typescript"
+  ],
+  "author": "Stuart Loria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StuartLoria/TypeScriptAdventures/issues"
+  },
+  "homepage": "https://github.com/StuartLoria/TypeScriptAdventures#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
