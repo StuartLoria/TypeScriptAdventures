@@ -4,10 +4,10 @@
   "description": "Repo to keep track of my TS learning experiments",
   "main": "app.js",
   "scripts": {
-	 "test": "echo \"Error: no test specified\" && exit 1",
-	 "tsc": "tsc -w app.ts",
-	 "serve": "lite-server",
-	 "start": "npm run serve"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc -w",
+    "serve": "lite-server",
+    "start": "npm run serve"
   },
   "repository": {
     "type": "git",
